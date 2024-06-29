@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "categroies": "Frozen",
+    "image": "/public/images/frozen/frozen.webp",
+    "bgImg": "/images/frozen/frozen.jpg",
+    "img1": "/images/frozen/cover1.webp",
+    "product": [
+      {
+        "id": 1,
+        "img": "/images/frozen/Broccoli.webp",
+        "name": "Broccoli"
+      },
+      {
+        "id": 2,
+        "img": "/images/frozen/Artichokes.webp",
+        "name": "Artichokes"
+      },
+      {
+        "id": 3,
+        "img": "/images/frozen/chopped Green Beans.webp",
+        "name": "Chopped Green Beans"
+      },
+      {
+        "id": 4,
+        "img": "/images/frozen/green peas.webp",
+        "name": "Green Peas"
+      },
+      {
+        "id": 5,
+        "img": "/images/frozen/Minced.webp",
+        "name": "Minced Molokhia"
+      },
+      {
+        "id": 6,
+        "img": "/images/frozen/Mixed.webp",
+        "name": "Mixed Vegetables"
+      },
+      {
+        "id": 7,
+        "img": "/images/frozen/Okra.webp",
+        "name": "Okra"
+      },
+      {
+        "id": 8,
+        "img": "/images/frozen/Peasand Carrots.webp",
+        "name": "Peas and Carrots"
+      },
+      {
+        "id": 9,
+        "img": "/images/frozen/Peeledbroad beans.webp",
+        "name": "Peeled Broad Beans"
+      },
+      {
+        "id": 10,
+        "img": "/images/frozen/Spinach.webp",
+        "name": "Spinach"
+      },
+      {
+        "id": 11,
+        "img": "/images/frozen/Taro.webp",
+        "name": "Taro"
+      }
+    ]
+  }
+]

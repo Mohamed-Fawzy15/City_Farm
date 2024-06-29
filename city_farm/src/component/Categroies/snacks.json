@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "categroies": "Snacks",
+    "bgImg": "/images/snacks/snacks.jpg",
+    "image": "/images/logo.png",
+    "img1": "/images/snacks/chips.jpg",
+    "img2": "/images/frozen/cover2.jpeg",
+    "product": [
+      {
+        "id": 1,
+        "img": "/images/snacks/break fresh.webp",
+        "name": "Fresh Vegatables"
+      },
+      {
+        "id": 2,
+        "img": "/images/snacks/break hot.webp",
+        "name": "Hot Chili pepper"
+      },
+      {
+        "id": 3,
+        "img": "/images/snacks/lion cheese.webp",
+        "name": "Cheese",
+        "factorImg": "/images/snacks/chipsfactors.jpg"
+      },
+      {
+        "id": 4,
+        "img": "/images/snacks/lion chili.webp",
+        "name": "Chili & Lemon",
+        "factorImg": "/images/snacks/chipsfactors.jpg"
+      },
+      {
+        "id": 5,
+        "img": "/images/snacks/lion kebab.webp",
+        "name": "Kebab",
+        "factorImg": "/images/snacks/chipsfactors.jpg"
+      },
+      {
+        "id": 6,
+        "img": "/images/snacks/lion katchap.png",
+        "name": "Ketchup",
+        "factorImg": "/images/snacks/ketchup.jpg"
+      },
+      {
+        "id": 7,
+        "img": "/images/snacks/windows.webp",
+        "name": "Cheese"
+      }
+    ]
+  }
+]

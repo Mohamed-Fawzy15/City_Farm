@@ -1,0 +1,51 @@
+.productInfo-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  margin: 50px;
+}
+
+.productInfo-imgs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.productInfo-subImgs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.mainImg {
+  width: 500px;
+  height: 500px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+.subImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: opacity 0.3s, box-shadow 0.3s;
+}
+.subImg.selected {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.subImg:not(.selected) {
+  opacity: 0.6;
+}
+
+.productInfo-data {
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}

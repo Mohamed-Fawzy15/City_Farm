@@ -1,0 +1,123 @@
+.footerHolder {
+  padding-top: 50px;
+  background-color: #3c4e39;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
+}
+
+.footerHR {
+  width: 100%;
+  /* color: #204622; */
+  color: white;
+
+  padding-bottom: 20px;
+}
+
+.footerText {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 2fr;
+  justify-content: center;
+  gap: 50px;
+  /* align-items: center; */
+}
+.footerText p {
+  padding-top: 2px;
+  color: white;
+}
+p {
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+}
+
+.footerImg {
+  width: 100%;
+}
+
+.logo {
+  /* display: grid; */
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  height: auto;
+}
+
+.socialmedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  gap: 10px;
+  padding-bottom: 10px;
+}
+/* .socialmedia img {
+  width: 30px;
+  height: 30px;
+} */
+
+.socialImage {
+  width: 30px;
+  height: 30px;
+}
+
+p {
+  /* color: #204622; */
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+h2 {
+  /* color: #204622; */
+  color: white;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.CopyRight {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+.CopyRight p {
+  color: white;
+}
+
+.footer-links {
+  color: #204622;
+  color: white;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 100%;
+  font-weight: bolder;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+
+.footer-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  text-align: center;
+  justify-content: center;
+}
+
+@media screen and (max-width: 960px) {
+  .footerText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footerText div {
+    padding: 10px;
+  }
+  .navBar-Links {
+    justify-content: center;
+    align-items: center;
+  }
+}

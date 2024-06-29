@@ -1,0 +1,37 @@
+.carImg {
+  max-height: 500px;
+  width: 100%;
+  animation: partnerAnimation 10s forwards;
+}
+.carsoulSilder {
+  width: 100%;
+}
+.carsoulSilder h3 {
+  color: white;
+}
+@keyframes partnerAnimation {
+  from {
+    transform: scale(1); /* Start with original scale */
+  }
+  to {
+    transform: scale(1.5); /* Scale up to 1.1 */
+  }
+}
+.carsoulBtn {
+  background-color: #faa433;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  transition: all 0.2s;
+  border-radius: 5%;
+}
+
+.carsoulBtn:hover {
+  transform: scale(1.3);
+  background-color: #204622;
+}

@@ -1,0 +1,104 @@
+.newsCard-holder h1 {
+  color: rgb(207, 207, 207);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding: 20px;
+}
+.newsCard-holder p {
+  color: #204622;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.newsCard {
+  margin-left: 70px;
+}
+
+.cardContanier {
+  border: none;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(74, 74, 74, 0.349);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  height: 400px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.newsCard-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn {
+  background-color: #faa433;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 10px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  transition: all 0.2s;
+}
+
+.cardContanier:hover {
+  color: white;
+  /* border: 2px solid ; */
+  /* background-color: #204622; */
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+}
+.cardContanier:hover img {
+  transform: scale(1.1);
+}
+
+.cardContanier:hover .cardText {
+  color: white;
+}
+
+.cardContanier:hover .btn {
+  transform: scale(1.05);
+  background-color: white;
+  border: 2px solid #faa433;
+  color: #204622;
+}
+.cardImage {
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  overflow: hidden;
+  margin-top: 15px;
+}
+.hideimg {
+  opacity: 0;
+}
+
+.spinImg {
+  animation: cardAnimation 1s linear;
+  /* animation-timeline: view();
+  animation-range: entry(0); */
+}
+
+@keyframes cardAnimation {
+  from {
+    transform: scale(0); /* Starting rotation angle */
+  }
+  to {
+    transform: scale(1); /* Ending rotation angle */
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hideimg {
+    opacity: 1;
+  }
+}

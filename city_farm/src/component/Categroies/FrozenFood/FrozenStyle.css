@@ -1,0 +1,165 @@
+.product-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.products-type {
+  color: #cfcfcf;
+  margin-top: 20px;
+}
+
+.frozenImg img {
+  width: 350px;
+  height: 350px;
+  /* margin-bottom: 50px; */
+}
+a {
+  text-decoration: none;
+}
+
+.frozenFamily {
+  display: flex;
+  flex-direction: column;
+  /* float: left; */
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+h4 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.frozenCard {
+  width: 400px;
+  /* height: 600px; */
+  /* background-color: #b19375; */
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 4px 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  padding: 20px;
+}
+
+.frozenCard:hover {
+  background-color: rgba(74, 74, 74, 0.648);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+}
+
+.frozenCard:hover .productImg {
+  transform: scale(1.3);
+}
+
+.frozenCard:hover p {
+  color: white;
+}
+.frozenCard:hover h4 {
+  color: white;
+}
+.frozenCard:hover h3 {
+  color: white;
+}
+.frozenProducts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.productImg {
+  animation: spin 2s linear;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.product-name {
+  color: #cfcfcf;
+}
+
+/* .productImg:hover {
+  transform: scale(1.3);
+} */
+
+@keyframes spin {
+  from {
+    transform: scale(0); /* Starting rotation angle */
+  }
+  to {
+    transform: scale(1); /* Ending rotation angle */
+  }
+}
+.productImg {
+  width: 350px;
+  height: 250px;
+}
+
+/* carsoul */
+.product-carsoul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.product-carImg {
+  max-height: 500px;
+  width: 100%;
+  border-radius: 12px;
+  /* animation: partnerAnimation 10s forwards; */
+}
+.product-carsoulSilder {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.product-carsoulSilder h3 {
+  color: white;
+}
+
+@media screen and (max-width: 1024px) {
+  .frozen {
+    justify-content: center;
+    align-items: center;
+  }
+  .frozenFamily {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .frozenProducts {
+    /* gap: 60px; */
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+}
+
+.alert-image {
+  width: 450px;
+  height: 500px;
+}
+
+@media screen and (max-width: 960px) {
+  .frozen {
+    justify-content: center;
+    align-items: center;
+  }
+  .frozenFamily {
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 50px;
+  }
+  .frozenProducts {
+    /* gap: 60px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "categroies": "Pickles",
+    "image": "/images/pickles/pickles.webp",
+    "bgImg": "/images/pickles/pickles.jpg",
+    "img1": "/images/pickles/pickels.jpeg",
+    "img2": "/images/frozen/cover2.jpeg",
+    "product": [
+      {
+        "id": 1,
+        "img": "/images/pickles/green olive  pickles.webp",
+        "name": "Green Olive Pickles"
+      },
+      {
+        "id": 2,
+        "img": "/images/pickles/kalamata olive  pickles.webp",
+        "name": "Kalamata Olive Pickles"
+      },
+      {
+        "id": 3,
+        "img": "/images/pickles/lemon pickles.webp",
+        "name": "Lemon Pickles"
+      },
+      {
+        "id": 4,
+        "img": "/images/pickles/mixed pickles.webp",
+        "name": "Mixed pickles"
+      },
+      {
+        "id": 5,
+        "img": "/images/pickles/spicy lemon pickles.webp",
+        "name": "Spicy Lemon Pickles"
+      },
+      {
+        "id": 6,
+        "img": "/images/pickles/spicy mixed pickles.webp",
+        "name": "Spicy Mixed Pickles"
+      }
+    ]
+  }
+]

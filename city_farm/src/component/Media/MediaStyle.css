@@ -1,0 +1,204 @@
+.media-bg {
+  width: 100%;
+  height: 500px;
+  position: relative;
+}
+.newsHeader {
+  padding-bottom: 30px;
+}
+.news {
+  /* background-color: #b19375; */
+  background-image: url("/public/media.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hello {
+  position: absolute;
+  top: 300px; /* Adjust as needed */
+  left: 40%;
+  justify-content: center;
+  text-align: center;
+  color: aliceblue;
+}
+.NewsHolder {
+  display: grid;
+  grid-template-columns: 1.5fr 0.5fr 7fr;
+  padding-bottom: 40px;
+}
+
+.articleImg {
+  width: 40%;
+  height: 100px;
+}
+a {
+  color: #204622;
+}
+
+.lihead {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #204622;
+  padding: 20px;
+  border-bottom: 2px solid #204622;
+}
+.lihead:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+  border-bottom: 2px solid #204622;
+}
+
+.vertical-line {
+  border-left: 2px solid black; /* Change the color and thickness as needed */
+  height: auto; /* Adjust the height as needed */
+  margin: 0 auto; /* Centers the line horizontally */
+}
+.clickMore {
+  text-decoration: underline;
+  color: black;
+}
+
+.feedingUSA {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+  /* height: 600px; */
+}
+
+.feedingName {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 15px;
+}
+
+.charityIcon {
+  width: 100px;
+  height: 100px;
+}
+
+.feedingBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 12px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+  margin: 15px;
+  margin-top: auto;
+}
+.feedingheader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 15px;
+}
+
+.feedingLogo {
+  width: 550px;
+  height: 550px;
+}
+
+.feedingText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.findus-holder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin-top: 75px;
+}
+
+.findus-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.findusImg {
+  width: 850px;
+  height: 150px;
+}
+.findus-icon {
+  width: 100px;
+  height: 100px;
+}
+
+.findus {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.store {
+  width: 450px;
+  height: 350px;
+  border-radius: 12px;
+}
+
+.media-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.art-icon {
+  width: 75px;
+  height: 75px;
+}
+
+.art-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 50px 0px;
+}
+
+@media screen and (max-width: 960px) {
+  .feedingUSA {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .feedingLogo {
+    width: 350px;
+    height: 350px;
+  }
+  .findusImg {
+    width: 390px;
+    height: 100px;
+  }
+  .findus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .store {
+    width: 350px;
+    height: 350px;
+  }
+}

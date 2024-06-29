@@ -1,0 +1,40 @@
+.cardHolder {
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-list {
+  width: 80vw;
+  /* margin: 0 auto; */
+  display: flex;
+  /* grid-template-columns: 1fr 1fr 1fr; */
+  grid-gap: 10px;
+  /* padding: 50px; */
+  justify-content: center;
+  align-items: center;
+}
+
+.catInfo {
+  padding-top: 50px;
+}
+
+.catTitle {
+  color: #204622;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.catText {
+  color: #204622;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+@media (max-width: 960px) {
+  .card-list {
+    grid-template-columns: 1fr; /* Change to one column for smaller screens */
+    justify-content: center;
+  }
+}

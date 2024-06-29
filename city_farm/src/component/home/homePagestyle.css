@@ -1,0 +1,44 @@
+.headText {
+  color: #204622;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.headSubtext {
+  color: #204622;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.homepage {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background-image: url("/public/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.homeBtn {
+  background-color: #faa433;
+  width: 130px;
+  height: 40px;
+  color: white;
+  font-size: 12px;
+  border: none;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 20px;
+  transition: all 0.2s;
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 40px;
+}
+
+.brandPart {
+  width: 100%;
+}

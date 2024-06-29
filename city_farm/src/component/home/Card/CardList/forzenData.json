@@ -1,0 +1,25 @@
+[
+  {
+    "id": 1,
+    "img": "/images/frozen/Broccoli.png",
+    "name": "Frozen Food",
+    "categroies": "Frozen Food",
+    "price": "00.00$",
+    "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+  },
+  {
+    "id": 2,
+    "img": "/images/beans/chickbeans.png",
+    "categroies": "Frozen Food",
+    "name": "legumes",
+    "price": "00.00$",
+    "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+  },
+  {
+    "id": 3,
+    "img": "/images/Jucies/gauva .png",
+    "name": "Jucies",
+    "price": "00.00$",
+    "desc": "Whole Fava Beans - Water - Salt - Citric Acid - E.D.T.A Salt"
+  }
+]

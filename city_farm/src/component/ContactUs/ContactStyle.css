@@ -1,0 +1,142 @@
+.contact-page {
+  background-image: url("/public/bg2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.contactMessage {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.getInTouch {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.getInTouch h1 {
+  color: #cfcfcf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  padding-bottom: 10px;
+}
+
+.getInTouch p {
+  color: #cfcfcf;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+.contactForm {
+  /* background-color: #fff; */
+  background-color: rgba(74, 74, 74, 0.349);
+  border-radius: 8px;
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3); /* Add shadow effect */
+  padding: 20px;
+}
+.submitForm {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  height: 50px;
+  width: 100%;
+}
+textarea {
+  border: none;
+  border-radius: 15px;
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+.submitBtn {
+  background-color: #faa433;
+  color: #204622;
+  border: none;
+  border-radius: 20px;
+  width: 150px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.submitBtn:hover {
+  transform: scale(1.2);
+  transition: all 0.3s ease;
+  background-color: #204622;
+  color: white;
+}
+.workingHours {
+  padding-top: 50px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+}
+.office {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.office h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #cfcfcf;
+}
+
+.office p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+  color: #cfcfcf;
+}
+
+.office h5 {
+  color: #cfcfcf;
+}
+
+.workingHoursImg {
+  width: 400px;
+  height: 400px;
+}
+.LocationVideo {
+  padding-top: 50px;
+}
+.LocationVideo video {
+  width: 100%;
+  /* height: 500px; */
+}
+.infoImg {
+  width: 500px;
+  height: 500px;
+}
+@media screen and (max-width: 960px) {
+  .contactMessage {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .workingHoursImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .workingHours {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
