@@ -1,8 +1,7 @@
-import { useState } from "react";
+import { useNavigate, useParams } from "react-router-dom";
 import NavBar from "../../NavBar/NavBar";
 import Footer from "../../Footer/Footer";
 import { Container } from "react-bootstrap";
-import "./FrozenStyle.css";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import UpBtn from "../../UpBtn/UpBtn";
@@ -12,25 +11,12 @@ import beans from "../beans.json";
 import spices from "../spices.json";
 import pickles from "../pickles.json";
 import snacks from "../snacks.json";
-import { useParams, useNavigate } from "react-router-dom";
-import { Modal } from "react-bootstrap";
+import "./FrozenStyle.css";
 
 const FrozenFood = () => {
   const { id } = useParams();
   const navigate = useNavigate();
   let productData;
-
-  const [showAlert, setShowAlert] = useState(false);
-  const [selectedFactorImg, setSelectedFactorImg] = useState("");
-
-  const handleImageClick = (factorImg) => {
-    setSelectedFactorImg(factorImg);
-    setShowAlert(true);
-  };
-
-  const handleCloseAlert = () => {
-    setShowAlert(false);
-  };
 
   if (id === "1") {
     productData = frozen;
@@ -47,6 +33,11 @@ const FrozenFood = () => {
   } else if (!id) {
     navigate("/home");
   }
+
+  const handleProductClick = (product) => {
+    navigate(product.path);
+  };
+
   return (
     <div>
       {productData.map((bg) => (
@@ -67,20 +58,7 @@ const FrozenFood = () => {
                       src={i.img1}
                       alt="First slide"
                     />
-                    {/* <Carousel.Caption>
-                      <h3>{i.categroies}</h3>
-                    </Carousel.Caption> */}
                   </Carousel.Item>
-                  {/* <Carousel.Item>
-                    <img
-                      className="d-block w-100 product-carImg"
-                      src={i.img2}
-                      alt="Second slide"
-                    />
-                    <Carousel.Caption>
-                      <h3>{i.categroies}</h3>
-                    </Carousel.Caption>
-                  </Carousel.Item> */}
                 </Carousel>
               ))}
             </div>
@@ -93,7 +71,7 @@ const FrozenFood = () => {
                       <div
                         className="frozenCard"
                         key={d.id}
-                        onClick={() => handleImageClick(d.factorImg)}
+                        onClick={() => handleProductClick(d)}
                       >
                         <div>
                           <img
@@ -111,7 +89,6 @@ const FrozenFood = () => {
                         </div>
                       </div>
                     ))}
-                    <div>{/*onClick={p.func}*/}</div>
                   </div>
                 ))}
               </div>
@@ -121,12 +98,6 @@ const FrozenFood = () => {
           <Footer />
         </div>
       ))}
-
-      <Modal show={showAlert} onHide={handleCloseAlert} centered>
-        <Modal.Body>
-          <img src={selectedFactorImg} alt="Selected" className="alert-image" />
-        </Modal.Body>
-      </Modal>
     </div>
   );
 };
